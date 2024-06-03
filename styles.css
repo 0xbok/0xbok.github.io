@@ -162,6 +162,22 @@ h2 {
   font-size: 18px;
 }
 
+/* General style for the headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+  /* Required for absolute positioning of the link icon */
+}
+
+.last-element {
+  padding-bottom: 50vh;
+  /* Adds padding at the bottom of the last element */
+}
+
 a:link,
 a:visited {
   color: blue;

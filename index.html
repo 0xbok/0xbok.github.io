@@ -1,4 +1,28 @@
 <!DOCTYPE html>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Select all headings
+    var headings = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+    headings.forEach(function (heading) {
+      if (heading.id) {
+        // Create a new anchor element
+        var link = document.createElement("a");
+        link.href = "#" + heading.id;
+        link.style.textDecoration = "none"; // Optional: style the link
+
+        // Wrap the heading's contents in this anchor
+        while (heading.firstChild) {
+          link.appendChild(heading.firstChild);
+        }
+
+        heading.appendChild(link);
+      }
+    });
+  });
+</script>
+
 <html lang="en">
  <head>
   <meta charset="utf-8" />
@@ -11,8 +35,7 @@
  </head>
 
  <body>
-  <div id="preamble">
-   <a href="https://github.com/0xbok"><h1 class="title">blockdev</h1></a>
+   <h1 class="title">blockdev</h1>
 
    <h2 class="subtitle">
     contact me via
@@ -21,16 +44,15 @@
    </h2>
 
    <br />
-  </div>
 
   <div>
     <div>
     What I do:
     <ul>
         <li>Build things I like; Smart contracts, ZK, tools, infra (See <em>Open source work</em> below).
-        <li>ZK security at <a href="https://pse.dev">ethereum foundation</a>.
-        <li>web3 security at <a href="https://yaudit.dev">yAudit</a> (prev. <a href="https://yacademy.dev">yAcademy</a>).
         <li>Security Researcher at <a href="http://spearbit.com/">Spearbit</a>.
+        <li>prev. ZK security at <a href="https://pse.dev">PSE, ethereum foundation</a>.
+        <li>prev. web3 security at <a href="https://yaudit.dev">yAudit</a> (prev. <a href="https://yacademy.dev">yAcademy</a>).
     </ul>
     </div>
     <div>
@@ -110,7 +132,8 @@
      </ul>
     </div>
     <h2 id="writing">Writings</h2>
-    <div>
+    <div class="last-element">
+     <ul>
       <li><a href="https://hackmd.io/@blockdev/Bk_-jRkXa#">Tips for writing secure circom</a>: 101 talk for Secureum-Veridise ZK week; <a href="https://twitter.com/VeridiseInc/status/1718659061632401810">Tweet from Veridise</a>.
       <li><a href="https://hackmd.io/@blockdev/BJIW0Rlr3">Just enough Elliptic Curve for Ethereum</a>: Behind the scene look at the key generation process; <a href="https://twitter.com/blockdeveth/status/1658536386540994561">Tweet</a>.
       <li><a href="https://ethresear.ch/t/shielded-transfers-tokens-and-nfts/15424">Shielded transfers for any asset</a>: Uses ZK for an auditable and private asset transfer (native, ERC20, ERC721, ERC1155) protocol.
