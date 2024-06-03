@@ -1,0 +1,226 @@
+.title {
+  text-align: center;
+  margin-bottom: 0.2em;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.yac {
+  background-color: #c2e0c6;
+  padding: 2px 6px;
+  border-radius: 15px;
+  color: #333;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+  mix-blend-mode: multiply;
+}
+
+.pse {
+  background-color: #e64bcc87;
+  padding: 2px 6px;
+  border-radius: 15px;
+  color: #333;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+  mix-blend-mode: multiply;
+}
+
+.spear {
+  background-color: #cccccc;
+  padding: 2px 6px;
+  border-radius: 15px;
+  color: #333;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+  mix-blend-mode: multiply;
+}
+
+.bridge {
+  background-color: #FFA07A;
+  padding: 2px 6px;
+  border-radius: 15px;
+  color: #333;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+  mix-blend-mode: multiply;
+}
+
+.nft {
+  background-color: #f0fefe;
+  padding: 2px 6px;
+  border-radius: 15px;
+  color: #333;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+  mix-blend-mode: multiply;
+}
+
+.defi {
+  background-color: #d7bde2;
+  padding: 2px 6px;
+  border-radius: 15px;
+  color: #333;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+  mix-blend-mode: multiply;
+}
+
+.nftfi {
+  background-color: #f1c40f;
+  padding: 2px 6px;
+  border-radius: 15px;
+  color: #333;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+  mix-blend-mode: multiply;
+}
+
+.zk {
+  background-color: #87cefa;
+  padding: 2px 6px;
+  border-radius: 15px;
+  color: #333;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+  mix-blend-mode: multiply;
+}
+
+.private {
+  background-color: #597588;
+  padding: 2px 6px;
+  border-radius: 15px;
+  color: #333;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+  mix-blend-mode: multiply;
+}
+
+.erc4337 {
+  background-color: #d7fa87;
+  padding: 2px 6px;
+  border-radius: 15px;
+  color: #333;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+  mix-blend-mode: multiply;
+}
+
+.l2infra {
+  background-color: #ff3300;
+  padding: 2px 6px;
+  border-radius: 15px;
+  color: #333;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+  mix-blend-mode: multiply;
+}
+
+.solo {
+  background-color: #707051;
+  padding: 2px 6px;
+  border-radius: 15px;
+  color: #333;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+  mix-blend-mode: multiply;
+}
+
+body {
+  line-height: 1.6;
+  font-size: 18px;
+  padding: 0 10px;
+  margin: 60px auto;
+  max-width: 700px;
+  background-color: #e8e2dc;
+}
+
+h2,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h2 {
+  font-style: italic;
+  font-size: 18px;
+}
+
+a:link,
+a:visited {
+  color: blue;
+}
+
+code,
+.code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 3px;
+}
+.subtitle {
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+body {
+  line-height: 1.6;
+  font-size: 18px;
+  padding: 0 10px;
+  margin: 60px auto;
+  max-width: 700px;
+}
+
+h2,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h2 {
+  font-style: italic;
+  font-size: 18px;
+}
+
+a:link,
+a:visited {
+  color: blue;
+}
+
+code,
+.code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 3px;
+}
